@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital@1&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: black;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+
+  };
+
+  .wrapper{
+    padding: 25px;
+    border-radius: 10px;
+    background: red;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  };
+
+  .slashermatch, .card, .view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  };
+
+  .slashermatch{
+    height: 400px;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  };
+
+  .slashermatch .card{
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    perspective: 100px;
+    height: 100%;
+    width: 100%;
+  };
+
+  
+
